@@ -66,6 +66,38 @@ class ViewController: UIViewController {
         print("Toplam sayı: \(total)")
         
         
+        //while
+        var number = 1
+        
+        while number < 10 {
+            
+            print(number)
+            number += 1
+            
+        }
+        
+        // Repeat While
+        
+        //bir kere çalışan döngü tanımı
+        let myAge = 30
+        
+        repeat {
+            print("Benim yaşım \(myAge)")
+        } while myAge > 30
+        
+        // koşulu sağlayana kadar dönen bir döngü
+        // 10 dan küçük olan sayıları yazdıran bir döngümüz olsun.
+        
+        var n = 0
+        
+        repeat {
+            n += 1
+            print("sayı: \(n)")
+        } while n < 10 // bu koşul sağlanana kadar dönecektir.
+        
+        
+        
+        
     }
 
 
