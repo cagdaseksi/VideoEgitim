@@ -23,6 +23,7 @@ class ViewController: UIViewController {
         
         //var list = [Int]()
         
+        //contains arama yapan method true veya false döndürür.
         
     }
 
@@ -58,7 +59,6 @@ class ViewController: UIViewController {
         //Dizideki eleman sayısını bulma
         
         label.text = "Dizideki eleman sayısı = \(list.count)"
-        
         
     }
     
@@ -133,6 +133,4 @@ class ViewController: UIViewController {
         
     }
     
-    
 }
-
