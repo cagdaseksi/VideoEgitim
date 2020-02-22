@@ -30,8 +30,7 @@ class ViewController: UIViewController {
         
         print(noteAndName)
         
-        // Dictionary Boş Kpntrolü
-        
+        // Dictionary Boş Kontrolü
         
         var someDict1:[Int:String] = [1:"One", 2:"Two", 3:"Three"]
         var someDict2:[Int:String] = [4:"Four", 5:"Five"]
@@ -101,7 +100,6 @@ class ViewController: UIViewController {
         }else {
             print("ülke bulunamadı.")
         }
-        
         
     }
 
