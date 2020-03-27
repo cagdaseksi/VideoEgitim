@@ -116,3 +116,17 @@ class Dikdortgen {
     }
     
 }
+
+struct DikdortgenS {
+    var kisaKenar = 0
+    var uzunKenar = 0
+    
+    func alanHesapla() -> Int {
+        return kisaKenar * uzunKenar
+    }
+    
+    func cevreHesapla() -> Int{
+        return 2 * (kisaKenar + uzunKenar)
+    }
+    
+}
