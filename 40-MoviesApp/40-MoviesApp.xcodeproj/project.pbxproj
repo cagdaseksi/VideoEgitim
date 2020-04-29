@@ -1,0 +1,475 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047A57E324586B2A00861C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A57E224586B2A00861C75 /* AppDelegate.swift */; };
+		047A57E524586B2A00861C75 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A57E424586B2A00861C75 /* SceneDelegate.swift */; };
+		047A57E724586B2A00861C75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A57E624586B2A00861C75 /* ViewController.swift */; };
+		047A57EA24586B2A00861C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A57E824586B2A00861C75 /* Main.storyboard */; };
+		047A57EC24586B2D00861C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047A57EB24586B2D00861C75 /* Assets.xcassets */; };
+		047A57EF24586B2D00861C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047A57ED24586B2D00861C75 /* LaunchScreen.storyboard */; };
+		047A57F724586B4300861C75 /* movies.json in Resources */ = {isa = PBXBuildFile; fileRef = 047A57F624586B4300861C75 /* movies.json */; };
+		047A581324586B6E00861C75 /* arrival-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57F924586B6E00861C75 /* arrival-small.jpg */; };
+		047A581424586B6E00861C75 /* civilwar-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FA24586B6E00861C75 /* civilwar-wide.jpg */; };
+		047A581524586B6E00861C75 /* kongskull-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FB24586B6E00861C75 /* kongskull-small.jpg */; };
+		047A581624586B6E00861C75 /* deadpool-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FC24586B6E00861C75 /* deadpool-small.jpg */; };
+		047A581724586B6E00861C75 /* suicidesquad-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FD24586B6E00861C75 /* suicidesquad-wide.jpg */; };
+		047A581824586B6E00861C75 /* kongskull-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FE24586B6E00861C75 /* kongskull-wide.jpg */; };
+		047A581924586B6E00861C75 /* doctorstrange-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A57FF24586B6E00861C75 /* doctorstrange-small.jpg */; };
+		047A581A24586B6E00861C75 /* rogueone-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580024586B6E00861C75 /* rogueone-small.jpg */; };
+		047A581B24586B6E00861C75 /* civilwar-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580124586B6E00861C75 /* civilwar-small.jpg */; };
+		047A581C24586B6E00861C75 /* logan-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580224586B6E00861C75 /* logan-small.jpg */; };
+		047A581D24586B6E00861C75 /* avengersultron-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580324586B6E00861C75 /* avengersultron-wide.jpg */; };
+		047A581E24586B6E00861C75 /* legobatman-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580424586B6E00861C75 /* legobatman-small.jpg */; };
+		047A581F24586B6E00861C75 /* madmax-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580524586B6E00861C75 /* madmax-wide.jpg */; };
+		047A582024586B6E00861C75 /* avengersultron-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580624586B6E00861C75 /* avengersultron-small.jpg */; };
+		047A582124586B6E00861C75 /* batmanvsuperman-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580724586B6E00861C75 /* batmanvsuperman-wide.jpg */; };
+		047A582224586B6E00861C75 /* legobatman-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580824586B6E00861C75 /* legobatman-wide.jpg */; };
+		047A582324586B6E00861C75 /* sully-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580924586B6E00861C75 /* sully-wide.jpg */; };
+		047A582424586B6E00861C75 /* deadpool-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580A24586B6E00861C75 /* deadpool-wide.jpg */; };
+		047A582524586B6E00861C75 /* doctorstrange-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580B24586B6E00861C75 /* doctorstrange-wide.jpg */; };
+		047A582624586B6E00861C75 /* sully-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580C24586B6E00861C75 /* sully-small.jpg */; };
+		047A582724586B6E00861C75 /* rogueone-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580D24586B6E00861C75 /* rogueone-wide.jpg */; };
+		047A582824586B6E00861C75 /* arrival-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580E24586B6E00861C75 /* arrival-wide.jpg */; };
+		047A582924586B6E00861C75 /* madmax-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A580F24586B6E00861C75 /* madmax-small.jpg */; };
+		047A582A24586B6E00861C75 /* suicidesquad-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A581024586B6E00861C75 /* suicidesquad-small.jpg */; };
+		047A582B24586B6E00861C75 /* logan-wide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A581124586B6E00861C75 /* logan-wide.jpg */; };
+		047A582C24586B6E00861C75 /* batmanvsuperman-small.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 047A581224586B6E00861C75 /* batmanvsuperman-small.jpg */; };
+		047A582E24586E8800861C75 /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A582D24586E8700861C75 /* MoviesTableViewController.swift */; };
+		047A58302458B4B000861C75 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A582F2458B4B000861C75 /* Movie.swift */; };
+		047A58322458B69900861C75 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A58312458B69900861C75 /* MovieTableViewCell.swift */; };
+		047A5834245994C000861C75 /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A5833245994C000861C75 /* MovieDetailVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		047A57DF24586B2A00861C75 /* 40-MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "40-MoviesApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A57E224586B2A00861C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047A57E424586B2A00861C75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		047A57E624586B2A00861C75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047A57E924586B2A00861C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047A57EB24586B2D00861C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047A57EE24586B2D00861C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047A57F024586B2D00861C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047A57F624586B4300861C75 /* movies.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = movies.json; sourceTree = "<group>"; };
+		047A57F924586B6E00861C75 /* arrival-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrival-small.jpg"; sourceTree = "<group>"; };
+		047A57FA24586B6E00861C75 /* civilwar-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "civilwar-wide.jpg"; sourceTree = "<group>"; };
+		047A57FB24586B6E00861C75 /* kongskull-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kongskull-small.jpg"; sourceTree = "<group>"; };
+		047A57FC24586B6E00861C75 /* deadpool-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deadpool-small.jpg"; sourceTree = "<group>"; };
+		047A57FD24586B6E00861C75 /* suicidesquad-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "suicidesquad-wide.jpg"; sourceTree = "<group>"; };
+		047A57FE24586B6E00861C75 /* kongskull-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kongskull-wide.jpg"; sourceTree = "<group>"; };
+		047A57FF24586B6E00861C75 /* doctorstrange-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doctorstrange-small.jpg"; sourceTree = "<group>"; };
+		047A580024586B6E00861C75 /* rogueone-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rogueone-small.jpg"; sourceTree = "<group>"; };
+		047A580124586B6E00861C75 /* civilwar-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "civilwar-small.jpg"; sourceTree = "<group>"; };
+		047A580224586B6E00861C75 /* logan-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logan-small.jpg"; sourceTree = "<group>"; };
+		047A580324586B6E00861C75 /* avengersultron-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengersultron-wide.jpg"; sourceTree = "<group>"; };
+		047A580424586B6E00861C75 /* legobatman-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "legobatman-small.jpg"; sourceTree = "<group>"; };
+		047A580524586B6E00861C75 /* madmax-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "madmax-wide.jpg"; sourceTree = "<group>"; };
+		047A580624586B6E00861C75 /* avengersultron-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "avengersultron-small.jpg"; sourceTree = "<group>"; };
+		047A580724586B6E00861C75 /* batmanvsuperman-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batmanvsuperman-wide.jpg"; sourceTree = "<group>"; };
+		047A580824586B6E00861C75 /* legobatman-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "legobatman-wide.jpg"; sourceTree = "<group>"; };
+		047A580924586B6E00861C75 /* sully-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-wide.jpg"; sourceTree = "<group>"; };
+		047A580A24586B6E00861C75 /* deadpool-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "deadpool-wide.jpg"; sourceTree = "<group>"; };
+		047A580B24586B6E00861C75 /* doctorstrange-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "doctorstrange-wide.jpg"; sourceTree = "<group>"; };
+		047A580C24586B6E00861C75 /* sully-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sully-small.jpg"; sourceTree = "<group>"; };
+		047A580D24586B6E00861C75 /* rogueone-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rogueone-wide.jpg"; sourceTree = "<group>"; };
+		047A580E24586B6E00861C75 /* arrival-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "arrival-wide.jpg"; sourceTree = "<group>"; };
+		047A580F24586B6E00861C75 /* madmax-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "madmax-small.jpg"; sourceTree = "<group>"; };
+		047A581024586B6E00861C75 /* suicidesquad-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "suicidesquad-small.jpg"; sourceTree = "<group>"; };
+		047A581124586B6E00861C75 /* logan-wide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "logan-wide.jpg"; sourceTree = "<group>"; };
+		047A581224586B6E00861C75 /* batmanvsuperman-small.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "batmanvsuperman-small.jpg"; sourceTree = "<group>"; };
+		047A582D24586E8700861C75 /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
+		047A582F2458B4B000861C75 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		047A58312458B69900861C75 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		047A5833245994C000861C75 /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A57DC24586B2A00861C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A57D624586B2A00861C75 = {
+			isa = PBXGroup;
+			children = (
+				047A57E124586B2A00861C75 /* 40-MoviesApp */,
+				047A57E024586B2A00861C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047A57E024586B2A00861C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A57DF24586B2A00861C75 /* 40-MoviesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A57E124586B2A00861C75 /* 40-MoviesApp */ = {
+			isa = PBXGroup;
+			children = (
+				047A57E224586B2A00861C75 /* AppDelegate.swift */,
+				047A57E424586B2A00861C75 /* SceneDelegate.swift */,
+				047A57E624586B2A00861C75 /* ViewController.swift */,
+				047A57E824586B2A00861C75 /* Main.storyboard */,
+				047A57EB24586B2D00861C75 /* Assets.xcassets */,
+				047A57ED24586B2D00861C75 /* LaunchScreen.storyboard */,
+				047A57F024586B2D00861C75 /* Info.plist */,
+				047A57F624586B4300861C75 /* movies.json */,
+				047A57F824586B6E00861C75 /* Files */,
+				047A582D24586E8700861C75 /* MoviesTableViewController.swift */,
+				047A5833245994C000861C75 /* MovieDetailVC.swift */,
+				047A582F2458B4B000861C75 /* Movie.swift */,
+				047A58312458B69900861C75 /* MovieTableViewCell.swift */,
+			);
+			path = "40-MoviesApp";
+			sourceTree = "<group>";
+		};
+		047A57F824586B6E00861C75 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				047A57F924586B6E00861C75 /* arrival-small.jpg */,
+				047A57FA24586B6E00861C75 /* civilwar-wide.jpg */,
+				047A57FB24586B6E00861C75 /* kongskull-small.jpg */,
+				047A57FC24586B6E00861C75 /* deadpool-small.jpg */,
+				047A57FD24586B6E00861C75 /* suicidesquad-wide.jpg */,
+				047A57FE24586B6E00861C75 /* kongskull-wide.jpg */,
+				047A57FF24586B6E00861C75 /* doctorstrange-small.jpg */,
+				047A580024586B6E00861C75 /* rogueone-small.jpg */,
+				047A580124586B6E00861C75 /* civilwar-small.jpg */,
+				047A580224586B6E00861C75 /* logan-small.jpg */,
+				047A580324586B6E00861C75 /* avengersultron-wide.jpg */,
+				047A580424586B6E00861C75 /* legobatman-small.jpg */,
+				047A580524586B6E00861C75 /* madmax-wide.jpg */,
+				047A580624586B6E00861C75 /* avengersultron-small.jpg */,
+				047A580724586B6E00861C75 /* batmanvsuperman-wide.jpg */,
+				047A580824586B6E00861C75 /* legobatman-wide.jpg */,
+				047A580924586B6E00861C75 /* sully-wide.jpg */,
+				047A580A24586B6E00861C75 /* deadpool-wide.jpg */,
+				047A580B24586B6E00861C75 /* doctorstrange-wide.jpg */,
+				047A580C24586B6E00861C75 /* sully-small.jpg */,
+				047A580D24586B6E00861C75 /* rogueone-wide.jpg */,
+				047A580E24586B6E00861C75 /* arrival-wide.jpg */,
+				047A580F24586B6E00861C75 /* madmax-small.jpg */,
+				047A581024586B6E00861C75 /* suicidesquad-small.jpg */,
+				047A581124586B6E00861C75 /* logan-wide.jpg */,
+				047A581224586B6E00861C75 /* batmanvsuperman-small.jpg */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A57DE24586B2A00861C75 /* 40-MoviesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A57F324586B2D00861C75 /* Build configuration list for PBXNativeTarget "40-MoviesApp" */;
+			buildPhases = (
+				047A57DB24586B2A00861C75 /* Sources */,
+				047A57DC24586B2A00861C75 /* Frameworks */,
+				047A57DD24586B2A00861C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "40-MoviesApp";
+			productName = "40-MoviesApp";
+			productReference = 047A57DF24586B2A00861C75 /* 40-MoviesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A57D724586B2A00861C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = cagdaseksi;
+				TargetAttributes = {
+					047A57DE24586B2A00861C75 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 047A57DA24586B2A00861C75 /* Build configuration list for PBXProject "40-MoviesApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047A57D624586B2A00861C75;
+			productRefGroup = 047A57E024586B2A00861C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A57DE24586B2A00861C75 /* 40-MoviesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047A57DD24586B2A00861C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A57EF24586B2D00861C75 /* LaunchScreen.storyboard in Resources */,
+				047A581424586B6E00861C75 /* civilwar-wide.jpg in Resources */,
+				047A582724586B6E00861C75 /* rogueone-wide.jpg in Resources */,
+				047A582024586B6E00861C75 /* avengersultron-small.jpg in Resources */,
+				047A57EC24586B2D00861C75 /* Assets.xcassets in Resources */,
+				047A582124586B6E00861C75 /* batmanvsuperman-wide.jpg in Resources */,
+				047A581E24586B6E00861C75 /* legobatman-small.jpg in Resources */,
+				047A582224586B6E00861C75 /* legobatman-wide.jpg in Resources */,
+				047A581B24586B6E00861C75 /* civilwar-small.jpg in Resources */,
+				047A582324586B6E00861C75 /* sully-wide.jpg in Resources */,
+				047A581824586B6E00861C75 /* kongskull-wide.jpg in Resources */,
+				047A582A24586B6E00861C75 /* suicidesquad-small.jpg in Resources */,
+				047A582B24586B6E00861C75 /* logan-wide.jpg in Resources */,
+				047A57F724586B4300861C75 /* movies.json in Resources */,
+				047A581524586B6E00861C75 /* kongskull-small.jpg in Resources */,
+				047A57EA24586B2A00861C75 /* Main.storyboard in Resources */,
+				047A581A24586B6E00861C75 /* rogueone-small.jpg in Resources */,
+				047A582424586B6E00861C75 /* deadpool-wide.jpg in Resources */,
+				047A582824586B6E00861C75 /* arrival-wide.jpg in Resources */,
+				047A581724586B6E00861C75 /* suicidesquad-wide.jpg in Resources */,
+				047A581324586B6E00861C75 /* arrival-small.jpg in Resources */,
+				047A581D24586B6E00861C75 /* avengersultron-wide.jpg in Resources */,
+				047A582524586B6E00861C75 /* doctorstrange-wide.jpg in Resources */,
+				047A581F24586B6E00861C75 /* madmax-wide.jpg in Resources */,
+				047A582924586B6E00861C75 /* madmax-small.jpg in Resources */,
+				047A581C24586B6E00861C75 /* logan-small.jpg in Resources */,
+				047A582C24586B6E00861C75 /* batmanvsuperman-small.jpg in Resources */,
+				047A582624586B6E00861C75 /* sully-small.jpg in Resources */,
+				047A581924586B6E00861C75 /* doctorstrange-small.jpg in Resources */,
+				047A581624586B6E00861C75 /* deadpool-small.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A57DB24586B2A00861C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A5834245994C000861C75 /* MovieDetailVC.swift in Sources */,
+				047A582E24586E8800861C75 /* MoviesTableViewController.swift in Sources */,
+				047A57E724586B2A00861C75 /* ViewController.swift in Sources */,
+				047A58322458B69900861C75 /* MovieTableViewCell.swift in Sources */,
+				047A57E324586B2A00861C75 /* AppDelegate.swift in Sources */,
+				047A57E524586B2A00861C75 /* SceneDelegate.swift in Sources */,
+				047A58302458B4B000861C75 /* Movie.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		047A57E824586B2A00861C75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A57E924586B2A00861C75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047A57ED24586B2D00861C75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047A57EE24586B2D00861C75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047A57F124586B2D00861C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047A57F224586B2D00861C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047A57F424586B2D00861C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6KE5XTLM6;
+				INFOPLIST_FILE = "40-MoviesApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceksi.-0-MoviesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		047A57F524586B2D00861C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A6KE5XTLM6;
+				INFOPLIST_FILE = "40-MoviesApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ceksi.-0-MoviesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A57DA24586B2A00861C75 /* Build configuration list for PBXProject "40-MoviesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A57F124586B2D00861C75 /* Debug */,
+				047A57F224586B2D00861C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A57F324586B2D00861C75 /* Build configuration list for PBXNativeTarget "40-MoviesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A57F424586B2D00861C75 /* Debug */,
+				047A57F524586B2D00861C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A57D724586B2A00861C75 /* Project object */;
+}

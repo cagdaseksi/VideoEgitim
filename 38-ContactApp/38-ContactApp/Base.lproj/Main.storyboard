@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="_8_ContactApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="contact.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="tp0-2j-eZz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aSR-Fw-AbI">
+                                <rect key="frame" x="20" y="205" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.21812546250000001" green="0.5050003529" blue="0.67793160679999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vXt-CK-nMw"/>
+                                </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Numara Ekle" image="person" catalog="system">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kLI-gY-fFt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fatura Ödeme" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sxm-7F-PcV">
+                                <rect key="frame" x="20" y="54" width="374" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Telefon Numarası" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VyD-v3-iqb">
+                                <rect key="frame" x="20" y="140" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="telefon numarası giriniz." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="31M-hc-rT9">
+                                <rect key="frame" x="20" y="161" width="374" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="31M-hc-rT9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3e0-Kk-GLb"/>
+                            <constraint firstItem="VyD-v3-iqb" firstAttribute="top" secondItem="sxm-7F-PcV" secondAttribute="bottom" constant="50" id="7W3-m8-Dk3"/>
+                            <constraint firstItem="sxm-7F-PcV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="CdF-Ai-r0J"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="VyD-v3-iqb" secondAttribute="trailing" constant="20" id="DMj-aU-esf"/>
+                            <constraint firstItem="aSR-Fw-AbI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="HOl-yO-P99"/>
+                            <constraint firstItem="tp0-2j-eZz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="K1r-4t-uBU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="31M-hc-rT9" secondAttribute="trailing" constant="20" id="OLc-Pq-Eec"/>
+                            <constraint firstItem="tp0-2j-eZz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="RWn-Jg-ydP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aSR-Fw-AbI" secondAttribute="trailing" constant="20" id="Zij-v2-kmK"/>
+                            <constraint firstAttribute="bottom" secondItem="tp0-2j-eZz" secondAttribute="bottom" id="bEb-pk-Cvu"/>
+                            <constraint firstItem="VyD-v3-iqb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dH4-IS-wSy"/>
+                            <constraint firstItem="sxm-7F-PcV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="gSf-4T-nTL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sxm-7F-PcV" secondAttribute="trailing" constant="20" id="jWh-lJ-ysm"/>
+                            <constraint firstItem="aSR-Fw-AbI" firstAttribute="top" secondItem="31M-hc-rT9" secondAttribute="bottom" constant="10" id="o9H-sQ-mdL"/>
+                            <constraint firstItem="31M-hc-rT9" firstAttribute="top" secondItem="VyD-v3-iqb" secondAttribute="bottom" id="osR-sm-8ND"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tp0-2j-eZz" secondAttribute="trailing" id="xlN-z4-eqs"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="number" destination="31M-hc-rT9" id="5Du-nq-el1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="contact.jpg" width="469.5" height="312.75"/>
+        <image name="person" catalog="system" width="64" height="58"/>
+    </resources>
+</document>

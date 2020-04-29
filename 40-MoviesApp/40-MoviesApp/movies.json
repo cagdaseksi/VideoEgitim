@@ -1,0 +1,106 @@
+[
+	{
+		"title": "Logan",
+		"categories": ["Action", "Drama", "Sci-Fi"],
+		"duration": "2h 17min",
+		"rating": 8.7,
+		"summary": "Future.",
+		"image_name": "logan"
+	},
+	{
+		"title": "Mad Max: Fury Road",
+		"categories": ["Action", "Adventure", "Sci-Fi"],
+		"duration": "2h",
+		"rating": 8.1,
+		"summary": "A woman rebels against a tyrannical ruler in postapocalyptic Australia in search for her home-land with the help of a group of female prisoners, a psychotic worshipper, and a drifter named Max.",
+		"image_name": "madmax"
+	},
+	{
+		"title": "Deadpool",
+		"categories": ["Action", "Adventure", "Comedy"],
+		"duration": "1h 48min",
+		"rating": 8.1,
+		"summary": "A fast-talking mercenary with a morbid sense of humor is subjected to a rogue experiment that leaves him with accelerated healing powers and a quest for revenge.",
+		"image_name": "deadpool"
+	},
+	{
+		"title": "Avengers: Age of Ultron",
+		"categories": ["Action", "Adventure", "Sci-Fi"],
+		"duration": "2h 21min",
+		"rating": 7.4,
+		"summary": "When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's Mightiest Heroes to stop the villainous Ultron from enacting his terrible plans.",
+		"image_name": "avengersultron"
+	},
+	{
+		"title": "Sully",
+		"categories": ["Biography", "Drama"],
+		"duration": "1h 36min",
+		"rating": 7.5,
+		"summary": "The story of Chesley Sullenberger, an American pilot who became a hero after landing his damaged plane on the Hudson River in order to save the flight's passengers and crew.",
+		"image_name": "sully"
+	},
+	{
+		"title": "The LEGO Batman Movie",
+		"categories": ["Animation", "Action", "Adventure"],
+		"duration": "1h 44min",
+		"rating": 7.7,
+		"summary": "Bruce Wayne must not only deal with the criminals of Gotham City, but also the responsibility of raising a boy he adopted.",
+		"image_name": "legobatman"
+	},
+	{
+		"title": "Kong: Skull Island",
+		"categories": ["Action", "Adventure", "Fantasy"],
+		"duration": "1h 58min",
+		"rating": 7.8,
+		"summary": "A team of explorers and soldiers travel to an uncharted island in the Pacific, unaware that they are crossing into the domain of monsters, including the mythic Kong.",
+		"image_name": "kongskull"
+	},
+	{
+		"title": "Arrival",
+		"categories": ["Drama", "Mystery", "Sci-Fi"],
+		"duration": "1h 56min",
+		"rating": 8.0,
+		"summary": "When twelve mysterious spacecraft appear around the world, linguistics professor Louise Banks is tasked with interpreting the language of the apparent alien visitors.",
+		"image_name": "arrival"
+	},
+	{
+		"title": "Captain America: Civil War",
+		"categories": ["Action", "Adventure", "Sci-Fi"],
+		"duration": "2h 27min",
+		"rating": 7.9,
+		"summary": "Political interference in the Avengers' activities causes a rift between former allies Captain America and Iron Man.",
+		"image_name": "civilwar"
+	},
+	{
+		"title": "Rogue One",
+		"categories": ["Action", "Adventure", "Sci-Fi"],
+		"duration": "2h 13min",
+		"rating": 8.1,
+		"summary": "The Rebel Alliance makes a risky move to steal the plans for the Death Star, setting up the epic saga to follow.",
+		"image_name": "rogueone"
+	},
+	{
+		"title": "Doctor Strange",
+		"categories": ["Action", "Adventure", "Fantasy"],
+		"duration": "1h 55min",
+		"rating": 7.7,
+		"summary": "A former neurosurgeon embarks on a journey of healing only to be drawn into the world of the mystic arts.",
+		"image_name": "doctorstrange"
+	},
+	{
+		"title": "Suicide Squad",
+		"categories": ["Action", "Adventure", "Fantasy"],
+		"duration": "2h 3min",
+		"rating": 6.3,
+		"summary": "A secret government agency recruits some of the most dangerous incarcerated super-villains to form a defensive task force. Their first mission: save the world from the apocalypse.",
+		"image_name": "suicidesquad"
+	},
+	{
+		"title": "Batman v Superman: Dawn of Justice",
+		"categories": ["Action", "Adventure", "Sci-Fi"],
+		"duration": "2h 31min",
+		"rating": 6.7,
+		"summary": "Fearing that the actions of Superman are left unchecked, Batman takes on the Man of Steel, while the world wrestles with what kind of a hero it really needs.",
+		"image_name": "batmanvsuperman"
+	},
+]
